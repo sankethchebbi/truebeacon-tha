@@ -1,0 +1,65 @@
+.overview-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+
+.select-container {
+	margin-bottom: 10px;
+}
+
+.date-picker-container {
+	margin-bottom: 10px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	font-weight: bold;
+}
+
+select,
+input[type='date'] {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+select:focus,
+input[type='date']:focus {
+	outline: none;
+	border-color: #5cb85c;
+}
+
+.recharts-wrapper {
+	margin-top: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.input-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.select-container,
+.date-picker-container {
+	flex: 1;
+	margin-right: 10px;
+}
+
+.input-container>* {
+	margin-right: 10px;
+}
+
+.chart-container {
+	margin-top: 20px;
+}
